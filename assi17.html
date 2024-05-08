@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" container="width=device-width,initial-scale=1.0">
+        <title>flexbox </title>
+   <style>
+    .profiles-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        background-color: rgb(193, 26, 76);
+        width: 100px;
+        height: 800px;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .profiles-card{
+        background-image: linear-gradient(to top,#fad0c4 0%,#fff 100%);
+        width: 200px;
+        border: 1px sandybrown;
+        border-radius: 5px;
+        padding: 10px;
+    }
+    .profiles-image{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .profile-name{
+        text-align: center;
+    }
+   </style>
+    </head>
+    <body>
+        <div class="profiles-container" >
+            <div class="profile-card">
+            <img src="bhediya.png" class="profiles-image"/>
+            <h2 class="profile-name">Bhediya</h2>
+        </div>
+        <div class="profile-card">
+            <img src="movie2.png" class="profiles-image"/>
+            <h2 class="profile-name">Come</h2>
+        </div>
+        <div class="profile-card">
+            <img src="movie3.png" class="profiles-image"/>
+            <h2 class="profile-name">Lover</h2>
+        </div>
+        <div class="profile-card">
+            <img src="movie4.png" class="profiles-image"/>
+            <h2 class="profile-name">Super 30</h2>
+        </div>
+        </div>
+    </body>
+    
+</html>
